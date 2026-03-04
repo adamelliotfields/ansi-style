@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "ansi-style",
+  "description": "Style terminal characters using ANSI escape sequences.",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "lint": "biome ci .",
+    "lint:fix": "biome check --fix .",
+    "check": "tsgo -p ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.5",
+    "@tsconfig/node-lts": "^24.0.0",
+    "@types/node": "^25.3.3",
+    "@typescript/native-preview": "latest"
+  }
+}
