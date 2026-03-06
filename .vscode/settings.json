@@ -1,6 +1,6 @@
 {
   "editor.rulers": [100],
-  "typescript.experimental.useTsgo": true,
+  "js/ts.experimental.useTsgo": true,
   "files.exclude": {
     "node_modules/**": true
   },
